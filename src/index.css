@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Merienda+One&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Xanh+Mono&display=swap');
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image: url("./.././public/img/bgAll.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 698px;
+}
+
+.react-multi-carousel-dot button {
+  padding: 9px !important;
+  
+}

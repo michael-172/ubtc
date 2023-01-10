@@ -1,0 +1,153 @@
+
+
+.title{
+ font-weight: 400 !important;
+font-size: 48px !important;
+position: absolute;
+top: 20%;
+}
+
+.header{
+ font-weight: 700 !important;
+font-size: 45px !important;
+line-height: 62px;
+color: #444444;
+}
+
+.header::first-letter{
+ color: #B81F33 !important;
+}
+
+.heading{
+ font-weight: 700 !important;
+ font-size: 19px !important;
+ color: #B81F33 !important;
+ line-height: 28px;
+}
+
+
+.abut_desc{
+ font-weight: 400 !important;
+ font-size: 19px !important;
+ line-height: 28px;
+ color: #2D2D2D !important;
+}
+.btn_header{
+ background-color: #B81F33 !important;
+ color: #fff !important;
+ font-size: 1.3rem  !important;
+}
+
+.img_layer{
+ position: absolute !important;
+ top: 32%;
+ right: 30%;
+
+}
+
+.dashbord_title{
+ font-weight: 700 !important;
+font-size: 60px !important;
+line-height: 90px !important;
+position: relative;
+}
+/* 
+.dashbord_title::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #B81F33;
+} */
+
+.dashbord_desc{
+ font-weight: 600 !important;
+font-size:40px !important;
+line-height: 39p !important;
+
+color: #222222 !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .header{
+ font-size: 20px !important;
+ }
+
+ .abut_desc{
+  font-size: 15px !important;
+ }
+
+ 
+.heading{
+ font-size: 15px !important;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ .header{
+  font-size: 25px !important;
+  }
+ 
+  .abut_desc{
+   font-size: 16.5px !important;
+  }
+ 
+  
+ .heading{
+  font-size: 16.5px !important;
+ }
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ .header{
+  font-size: 30px !important;
+  }
+ 
+  .abut_desc{
+   font-size: 16px !important;
+  }
+ 
+  
+ .heading{
+  font-size: 16px !important;
+ }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .header{
+  font-size:  45px !important;
+  }
+ 
+  .abut_desc{
+   font-size: 18px !important;
+  }
+ 
+  
+ .heading{
+  font-size: 18px !important;
+ }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ .header{
+  font-size: 35px !important;
+  }
+ 
+  .abut_desc{
+   font-size: 18px !important;
+  }
+ 
+  
+ .heading{
+  font-size: 18px !important;
+ }
+}

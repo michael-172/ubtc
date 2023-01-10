@@ -1,0 +1,49 @@
+.red{
+ background-color: #B81F33;
+}
+
+.item_title{
+ font-size: 50px !important;
+ font-weight: 600;
+}
+
+.call{
+ font-size: 15px !important;
+ font-weight: 300;
+}
+.phone{
+ font-size: 30px !important;
+ font-weight: 700;
+}
+
+.icone{
+ width: 50px;
+ height: 50px;
+ background-color: #fff;
+}
+.foot{
+ font-size: 23px !important;
+ font-weight: 400;
+}
+
+.black{
+ background-color:  #2D2D2D;
+}
+
+.foot_title{
+ font-size: 40px !important;
+ font-weight: 600;
+}
+
+
+.foot_foot {
+ font-size: 15px !important;
+ font-weight: 400;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+}

@@ -1,0 +1,10 @@
+.navbar_link {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 23px;
+  color: #2d2d2d !important;
+}
+
+.navbar_link:focus {
+  color: #b81f33 !important;
+}

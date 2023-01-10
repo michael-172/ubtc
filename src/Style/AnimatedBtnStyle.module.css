@@ -1,0 +1,34 @@
+.btn_header {
+  background-color: #b81f33 !important;
+  color: #fff !important;
+  font-size: 1.3rem !important;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  border-radius: 10px !important;
+  height: 60px;
+  position: relative;
+}
+.btn_header span {
+  z-index: 10 !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn_header::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.btn_header:hover::before {
+  width: 100%;
+}
+.btn_header:hover {
+  color: #000 !important;
+}
